@@ -1,0 +1,304 @@
+*{margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #450409;  
+    overflow-x: hidden;   
+}
+
+.header{
+    width: 100vw;
+    height: 49vh;
+}
+h1{
+    position: absolute;
+    left: -50px;
+    color: #E9742C;
+    font-family: "Brea VF"; 
+    font-size: 200px;
+    z-index: 1;
+
+   /* font-family: "brea-variable", sans-serif; 
+   font-variation-settings: "wght" 90; from adobe  */
+}
+/* img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+.second-september{
+    color:#E9742C;
+    font-family: "Brea VF"; 
+    font-size: 200px; 
+    position: absolute;
+    right: -50px;
+    margin-top: 130px;
+    
+}
+.end-september{
+  color:#450409;
+  font-family: "Brea VF"; 
+    font-size: 200px; 
+    position: absolute;
+    margin-top: 330px;
+}
+    
+.image-container{
+  display: flex;
+  flex-direction: row;
+  
+}
+.columnfour{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.orange-block img{
+  height: 33rem;
+  width: auto;
+  margin-left: 3vw;
+  margin-top: -5.7vh;
+}
+.pier-block img{
+  height: 27rem;
+  width: auto;
+  margin-top: 5.8vh;
+  
+}
+.pier-block{
+  position: relative;
+}
+ 
+.wall-block img{
+  height: 22rem;
+  width: auto;
+  margin-top: 59vh;
+}
+.table-block img{
+  height: 14rem;
+  width: auto;
+  margin-top: 7.5vh;
+}
+  .small-square{
+    position:fixed
+    
+    
+  }
+  .small-img{
+    height: 2.5rem;
+    width: auto;
+    z-index: 2;
+    
+  }
+  .birthday{
+    top: 45vh;
+    left: 0%;
+    z-index: 2;
+   
+  }
+  .birthday img{
+    height: 9rem;
+    width: auto
+  }
+  .flower{
+    top: 9rem;
+    left: 11.2rem;
+    position: absolute;
+  }
+  .flower img{
+    height: 3rem;
+    width: auto; 
+    z-index: 2;
+  }
+  .room-close{
+    top: 34.8rem;
+    left: 14.2rem;
+    z-index: 2;
+    
+  }
+  .room-close img{
+    height: 3rem;
+    width: auto;
+    
+  }
+  .ruby-close{
+    top: 3rem;
+    left: 3rem;
+    position: absolute;
+  }
+  .lexi-close{
+    top: 0rem;
+    left: 6rem;
+    position: absolute;
+  }
+  .sky{
+    top: 3rem;
+    left:9rem;
+    position: absolute;
+  }
+  .food{
+    top: 8rem;
+    left: 26rem;
+    z-index: 2;
+  }
+  .food img{
+    height: 15rem;
+    width: auto;
+  
+   
+  }
+  .ruby img{
+    height: 10rem;
+    width: auto;
+   
+    
+   
+    
+  }
+  .ruby{
+    left: 9.7rem;
+    position: absolute;
+    top: 15rem;
+    
+  }
+  .rose-close{
+    top: 25rem;
+    left: 6.7rem;
+    position: absolute;
+  }
+  .rose-close img{
+    height: 3rem;
+    width: auto; 
+  }
+  .drink{
+    top: 5rem;
+    left: 17.1rem;
+    position: absolute;
+  }
+  .drink img{
+    height: 10rem;
+    width: auto; 
+  }
+  .picnic{
+    top: -1rem;
+    left: 24.2rem;
+    position: absolute;
+  }
+  .picnic img{
+    height: 6rem;
+    width: auto; 
+  }
+  .fish{
+    top: 5rem;
+    left: 29.8rem;
+    position: absolute;
+  }
+  .fish img{
+    height: 3rem;
+    width: auto; 
+  }
+  .blue-ruby{
+    top: 2rem;
+    left: 32.8rem;
+    position: absolute;
+  }
+  .blue-ruby img{
+    height: 3rem;
+    width: auto; 
+  }
+  
+  .yellow-lily{
+    top: 8rem;
+    left: 32.8rem;
+    position: absolute;
+  }
+  .yellow-lily img{
+    height: 3rem;
+    width: auto; 
+  }
+  .curtain-close{
+    top: 5rem;
+    left: 35.8rem;
+    position: absolute;
+  }
+  .curtain-close img{
+    height: 3rem;
+    width: auto; 
+  }
+  .plant{
+    top: 8rem;
+    left: 38.8rem;
+    position: absolute;
+  }
+  .plant img{
+    height: 3rem;
+    width: auto; 
+  }
+
+
+  .lily-close{
+    top: 14rem;
+    left: 45.1rem;
+    position: absolute;
+  }
+  .lily-close img{
+    height: 3rem;
+    width: auto; 
+  }
+  .pattern{
+    top: 17rem;
+    left: 48.2rem;
+    position: absolute;
+  }
+  .pattern img{
+    height: 3rem;
+    width: auto; 
+  }
+  .banner{
+    top: 20rem;
+    left: 51.2rem;
+    position: absolute;
+  }
+  .banner img{
+    height: 3rem;
+    width: auto; 
+  }
+  .tank{
+    top: 17rem;
+    left: 54.2rem;
+    position: absolute;
+  }
+  .tank img{
+    height: 3rem;
+    width: auto; 
+  }
+  .pink{
+    top: 37.9em;
+    left: 61.5rem;
+    position: absolute;
+  }
+  .pink img{
+    height: 3rem;
+    width: auto; 
+  }
+  .description{
+    color: #FFE75A;
+    font-family: "Chivo Mono", monospace;
+    font-size: 10px;
+    width: 16rem;
+    position: absolute;
+    top: 5rem;
+    left: 2rem;    
+}
+.lexi-quote{
+
+  position: absolute;
+  top: 9rem;
+  right: 4rem;
+  
+  
+}
+.lexi-quote img{
+  width: 14rem;
+  height: auto;
+}

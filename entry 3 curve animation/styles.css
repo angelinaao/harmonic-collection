@@ -1,0 +1,567 @@
+*{margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #450409;  
+    overflow-x: hidden;   
+}
+
+.header{
+    width: 100vw;
+    height: 49vh;
+}
+h1{
+    position: absolute;
+    left: -50px;
+    color: #E9742C;
+    font-family: "Brea VF"; 
+    font-size: 24.8vh;
+    z-index: 1;
+
+   /* font-family: "brea-variable", sans-serif; 
+   font-variation-settings: "wght" 90; from adobe  */
+}
+/* img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+.second-september{
+    color:#E9742C;
+    font-family: "Brea VF"; 
+    font-size:  24.8vh; 
+    position: absolute;
+    right: -50px;
+    margin-top: 16vh;
+    
+}
+.end-september{
+  color:#450409;
+  font-family: "Brea VF"; 
+    font-size: 200px; 
+    position: absolute;
+    margin-top: 330px;
+}
+    
+.image-container{
+  display: flex;
+  flex-direction: row;
+  
+}
+.columnfour{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.orange-block img{
+  height: 65vh;
+  width: auto;
+  margin-left: 3vw;
+  margin-top: -5.7vh;
+}
+.pier-block img{
+  height: 53vh;
+  width: auto;
+  margin-top: 5.8vh;
+  
+}
+.pier-block{
+  position: relative;
+}
+ 
+.wall-block img{
+  height: 42vh;
+  width: auto;
+  margin-top: 59vh;
+}
+.table-block img{
+  height: 27vh;
+  width: auto;
+  margin-top: 7.5vh;
+}
+  .small-square{
+    position:fixed; 
+    
+  }
+
+  .small-square .drink:hover img{
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+  }
+
+  .small-img{
+    height: 5.9vh;
+    width: auto;
+    z-index: 2;
+    
+  }
+  .birthday{
+    top: 45vh;
+    left: 0%;
+    z-index: 2;
+   
+  }
+  .birthday img{
+    height: 17.7vh;
+    width: auto;
+
+   
+  }
+  
+  .flower{
+    top: 17.6vh;
+    left: 12.4vw;
+    position: absolute;
+  }
+  .flower img{
+    height: 5.9vh;
+    width: auto; 
+    z-index: 2;
+  }
+  .flower:hover img{
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+  }
+  .room-close{
+    top: 68.5vh;
+    left: 15.7vw;
+    z-index: 10; 
+    
+  }
+  .room-close img{
+    height: 5.9vh;
+    width: auto;
+   
+  }
+  .room-close:hover img{
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+  }
+  .ruby-close{
+    top: 5.8vh;
+    left: 3.3vw;
+    position: absolute;
+  }
+  .lexi-close{
+    top: 0vh;
+    left: 6.7vw;
+    position: absolute;
+  }
+  .sky{
+    top: 5.8vh;
+    left:10vw;
+    position: absolute;
+  }
+  .food{
+    top: 15.2vh;
+    left: 29vw;
+    z-index: 2;
+  }
+  .food img{
+    height: 29.6vh;
+    width: auto;
+    
+   
+  }
+  
+  .ruby img{
+    height: 19.8vh;
+    width: auto;
+ 
+  }
+  .ruby{
+    left: 10.8vw;
+    position: absolute;
+    top: 29.5vh;
+    
+  }
+  .rose-close{
+    top: 49.4vh;
+    left: 7.4vw;
+    position: absolute;
+  }
+  .rose-close img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .drink{
+    top: 9.5vh;
+    left: 19vw;
+    position: absolute;
+    
+  }
+  .drink img{
+    height: 20vh;
+    width: auto; 
+  }
+  .picnic{
+    top: -2.3vh;
+    left: 27vw;
+    position: absolute;
+  }
+  .picnic img{
+    height: 11.8vh;
+    width: auto; 
+  }
+  .fish{
+    top: 9.5vh;
+    left: 33.2vw;
+    position: absolute;
+  }
+  .fish img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .blue-ruby{
+    top: 3.6vh;
+    left: 36.5vw;
+    position: absolute;
+  }
+  .blue-ruby img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  
+  .yellow-lily{
+    top: 15.4vh;
+    left: 36.5vw;
+    position: absolute;
+  }
+  .yellow-lily img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .curtain-close{
+    top: 9.5vh;
+    left: 39.8vw;
+    position: absolute;
+  }
+  .curtain-close img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .plant{
+    top: 15.4vh;
+    left: 43.1vw;
+    position: absolute;
+  }
+  .plant img{
+    height: 5.9vh;
+    width: auto; 
+  }
+
+
+  .lily-close{
+    top: 27.7vh;
+    left: 50.3vw;
+    position: absolute;
+  }
+  .lily-close img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .pattern{
+    top: 33.6vh;
+    left: 53.6vw;
+    position: absolute;
+  }
+  .pattern img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .banner{
+    top: 39.5vh;
+    left: 56.9vw;
+    position: absolute;
+  }
+  .banner img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .tank{
+    top: 33.6vh;
+    left: 60.2vw;
+    position: absolute;
+  }
+  .tank img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .pink{
+    top: 74.5vh;
+    left: 68vw;
+    position: absolute;
+  }
+  .pink img{
+    height: 5.9vh;
+    width: auto; 
+  }
+  .description{
+    color: #FFE75A;
+    font-family: "Chivo Mono", monospace;
+    font-size: 1.2vh;
+    width: 17vw;
+    position: absolute;
+    top: 10vh;
+    left: 2vw;    
+}
+.lexi-quote{
+
+  position: absolute;
+  top: 18vh;
+  right: 5.3vw;
+  
+  
+}
+.lexi-quote img{
+  width: 15.5vw;
+  height: auto;
+}
+/* @keyframes curveone{
+  0% {transform:translate(0,0);}
+  
+  100% {transform:translate(100px,0);}
+}
+.birthday{
+  animation: curveone 5s ease-in-out infinite;
+} */
+ 
+@keyframes birthday {
+  0%{
+ opacity: 0%;
+
+  }
+ 
+  95%{
+      opacity: 0%;
+  }
+  100%{
+   opacity: 100%; 
+  }
+}
+.orange-block{
+  position: relative;
+}
+.orange-video{
+  position: absolute;
+  top: -1.3vh;
+  left: 3vw;
+  width: auto;
+  height: 60.8vh;
+  object-fit: cover;
+  visibility: hidden;
+  opacity: 0%;
+  z-index: 0;
+}
+.orange-block:hover .orange-video{
+  visibility: visible;
+  opacity: 100%;
+}
+/* @keyframes curveMove {
+  0% {
+      transform: translate(0, 0);
+      opacity: 1;
+  }
+  25% {
+      transform: translate(20px, -10px);
+      opacity: 0.8;
+  }
+  50% {
+      transform: translate(40px, 20px);
+      opacity: 0.6;
+  }
+  75% {
+      transform: translate(60px, -10px);
+      opacity: 0.8;
+  }
+  100% {
+      transform: translate(0, 0);
+      opacity: 1;
+  }
+}
+.birthday {
+  animation: curveMove1 6s ease-in-out infinite;
+}
+
+.flower {
+  animation: curveMove2 6s ease-in-out infinite;
+}
+
+.room-close {
+  animation: curveMove3 6s ease-in-out infinite;
+}
+@keyframes curveMove1 {
+  0% {
+      transform: translate(0, 0);
+  }
+  25% {
+      transform: translate(20px, 30px);
+  }
+  50% {
+      transform: translate(50px, 50px);
+  }
+  75% {
+      transform: translate(30px, 20px);
+  }
+  100% {
+      transform: translate(0, 0);
+  }
+}
+
+@keyframes curveMove2 {
+  0% {
+      transform: translate(0, 0);
+  }
+  25% {
+      transform: translate(-30px, 20px);
+  }
+  50% {
+      transform: translate(-60px, -40px);
+  }
+  75% {
+      transform: translate(-40px, -20px);
+  }
+  100% {
+      transform: translate(0, 0);
+  }
+}
+
+@keyframes curveMove3 {
+  0% {
+      transform: translate(0, 0);
+  }
+  25% {
+      transform: translate(30px, -20px);
+  }
+  50% {
+      transform: translate(60px, 40px);
+  }
+  75% {
+      transform: translate(80px, 20px);
+  }
+  100% {
+      transform: translate(100, 40);
+  }
+} */
+
+.small-square {
+  position: fixed;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; /* Keeps the element in the final position */
+}
+
+.birthday {
+  animation: moveSequentially 10s linear;
+  animation-delay: 0s;
+}
+
+.flower {
+  animation: moveSequentially 10s linear;
+  animation-delay: 1s;
+}
+.room-close {
+  animation: moveSequentially 10s linear;
+  animation-delay: 2s;
+}
+
+.ruby {
+  animation: moveSequentially 10s linear;
+  animation-delay: 3s;
+}
+
+.rose-close {
+  animation: moveSequentially 10s linear;
+  animation-delay: 4s;
+}
+
+.drink {
+  animation: moveSequentially 10s linear;
+  animation-delay: 5s;
+}
+.picnic {
+  animation: moveSequentially 10s linear;
+  animation-delay: 6s;
+}
+
+.fish {
+  animation: moveSequentially 10s linear;
+  animation-delay: 7s;
+}
+
+.blue-ruby {
+  animation: moveSequentially 10s linear;
+  animation-delay: 8s;
+}
+.yellow-lily {
+  animation: moveSequentially 10s linear;
+  animation-delay: 9s;
+}
+
+.curtain-close {
+  animation: moveSequentially 10s linear;
+  animation-delay: 10s;
+}
+
+.plant {
+  animation: moveSequentially 10s linear;
+  animation-delay: 11s;
+}
+
+.lily-close {
+  animation: moveSequentially 10s linear;
+  animation-delay: 12s;
+}
+.pattern {
+  animation: moveSequentially 10s linear;
+  animation-delay: 13s;
+}
+
+.banner {
+  animation: moveSequentially 10s linear;
+  animation-delay: 14s;
+}
+
+.tank {
+  animation: moveSequentially 10s linear;
+  animation-delay: 15s;
+}
+.pink {
+  animation: moveSequentially 10s linear;
+  animation-delay: 16s;
+}
+
+@keyframes moveSequentially {
+  0% {
+      transform: translate(0, 0); /* Start at the original position */
+  }
+  10%{
+    transform: translate(12.4vw, 17.6vh); 
+  }
+  20% {
+      transform: translate(20vw, 0); /* Move to the next position */
+  }
+  40% {
+      transform: translate(40vw, 10vh); /* Move to the next position */
+  }
+  60% {
+      transform: translate(60vw, -10vh); /* Move to the next position */
+  }
+  80% {
+      transform: translate(80vw, 20vh); /* Move to the next position */
+  }
+  100% {
+      transform: translate(100vw, 0); /* Exit the screen */
+  }
+}
+
+
