@@ -43,16 +43,6 @@ body{
    
 }
 
- /* .grid-item:hover{
-   grid-column:1;
-    grid-row: 19;
-    position: relative;
-    background-color: white;
-    min-width: 100px;
-    cursor: pointer;
-    transition: 500ms; 
-    
-  }  */
 
 .grid-item:hover{
   transform: scale(10);
@@ -70,6 +60,24 @@ body{
   cursor: pointer;
   
 } 
+@media screen and (max-width: 425px){
+  .grid-container{
+    height: 100vh;
+    padding-left: 36px;
+    padding-right: 36px;
+    width: 141vw;
+    padding-top: 228px;
+    padding-bottom: 65px;
+  }
+  
+
+}
+
+
+
+
+
+
 
 .header{
 color: white;
