@@ -21,7 +21,7 @@ $(document).ready(function () {
         $(".description").toggle()
     })
     $(".ruby-img").hover(function () {
-        console.log('HI HELLO HIIII ruby-img hover!!!!!');
+        console.log('ruby-img hover!!!!!');
 
         $(".picnic").toggle()
         $(".room-img").toggle()
@@ -87,6 +87,7 @@ $(document).ready(function () {
         $(".blue-ruby").toggle()
         $(".smallruby-img").toggle()
         $(".tank").toggle()
+        $(".pattern img").toggle()
         $(".yellow-lily").toggle()
         $(".pflower-img").toggle()
         $(".sky-img").toggle()
@@ -98,7 +99,6 @@ $(document).ready(function () {
         $(".curtain-close img").toggle()
         $(".lily-close").toggle()
         $(".banner img").toggle()
-        $(".pattern img").toggle()
         $(".pink img").toggle()
         $(".food-img").toggle()
         $(".rose-close img").toggle()
@@ -107,5 +107,82 @@ $(document).ready(function () {
 
     })
 
+    $(".ruby img").hover(function () {
+        console.log('ruby img hover!!!!!');
+        $(".pflower-img").toggle()
+        $(".room-img").toggle()
+        $(".birthday img").toggle()
+        $(".sky-img").toggle()
+        $(".lexi-img").toggle()
+        $("#food-id").toggle()
+        $(".drink img").toggle()
+        $(".pier-block img").toggle()
+        $(".fish img").toggle()
+        $(".yellow-lily").toggle()
+        $(".blue-ruby").toggle()
+        $(".lily-close").toggle()
+        $(".pattern img").toggle()
+        $(".banner img").toggle()
+        $(".pink img").toggle()
+        $(".curtain-close img").toggle()
+        $(".lexi-quote img").toggle()
+        $(".description").toggle()
+    })
 
+    $(".picnic img").hover(function () {
+        $(".curtain-close img").toggle()
+        $(".lily-close").toggle()
+        $(".banner img").toggle()
+        $(".yellow-lily").toggle()
+        $(".rose-close img").toggle()
+        $(".sky-img").toggle()
+        $(".ruby-img").toggle()
+        $(".pflower-img").toggle()
+        $(".fish img").toggle()
+        $(".lexi-img").toggle()
+        $(".lexi-quote img").toggle()
+        $(".description").toggle()
+        $(".second-september").toggle()
+        $(".blue-ruby").toggle()
+        $(".pattern img").toggle()
+        $(".plant img").toggle()
+        $(".pink img").toggle()
+        $(".room-img").toggle()
+        $(".tank").toggle()
+    })
+    $(".curtain-close img").hover(function () {
+        $(".drink img").toggle()          
+        $(".wall-block img").toggle()
+        $(".orange-block img").toggle()
+        $(".pier-block img").toggle()
+        $(".table-block img").toggle()
+        $(".lexi-quote img").toggle()
+        $(".description").toggle()
+        $("h1").toggle()
+        $(".picnic img").toggle()
+        $(".birthday img").toggle()
+        $("#food-id").toggle()
+        $(".ruby img").toggle()
+    })
+
+    $(".plant img").hover(function () {
+           
+        $(".wall-block img").toggle()
+        $(".table-block img").toggle()
+        $(".lexi-quote img").toggle()
+        $(".description").toggle()
+        $("h1").toggle()
+    })
+    $(".pattern img").hover(function () {
+           
+        $(".orange-block img").toggle()
+        $(".table-block img").toggle()
+        $(".pier-block img").toggle()
+        $(".description").toggle()
+    })
+    $(".tank").hover(function () {
+        $(".lexi-quote img").toggle()  
+        $(".orange-block img").toggle()
+        $("#food-id").toggle()
+    })
 })

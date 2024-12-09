@@ -138,7 +138,10 @@ body .park-caption{
     top: 268.5vh;
  }
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+  }
 
 
 .second-date{
@@ -160,23 +163,37 @@ body .park-caption{
     width: 100vw;
     height: 50vh;
 }
+.back{
+    position: absolute;
+    top: 3vh;
+    right: 2vw;
+    font-family: "Chivo Mono", monospace;
+    font-size: 1.2vh;
+    color: #B19F0F; 
+    z-index: 3;
+}
+.back:hover{
+    color: #D97C0E;
+    cursor: pointer;
+    transform: scale(1.2);
+}
 h1{
     position: absolute;
     right: 0px;
     color: #B19F0F;
-    font-family: "Brea VF"; 
     font-size: 30vh;
-
-   /* font-family: "brea-variable", sans-serif; 
-   font-variation-settings: "wght" 90; from adobe  */
+   font-family: "brea-variable", sans-serif; 
+  
 }
 .second-september{
     color:#B19F0F;
-    font-family: "Brea VF"; 
-    font-size: 31vh; 
+     font-size: 31vh; 
     position: absolute;
     right: 0px;
-    top: 17vh
+    top: 17vh;
+    font-family: "brea-variable", sans-serif; 
+    font-variation-settings: "wght" 300;
+
     
 }
 
@@ -187,7 +204,8 @@ h2{
     position: absolute;
     left: 0px;
     margin-top: 0.6vh;
-    
+    font-family: "brea-variable", sans-serif;
+
    
 }
 .second-nine{
@@ -195,6 +213,8 @@ h2{
     font-family: "Brea VF"; 
     font-size: 15vh; 
     margin-top: 10vh;
+    font-family: "brea-variable", sans-serif; 
+    font-variation-settings: "wght" 300; 
 }
 
 

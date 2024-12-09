@@ -25,10 +25,30 @@ h1 {
   font-size: 24.8vh;
   z-index: 1;
 
-  /* font-family: "brea-variable", sans-serif; 
-   font-variation-settings: "wght" 90; from adobe  */
+  font-family: "brea-variable", sans-serif; 
+  
 }
+.back{
+  position: absolute;
+  top: 3vh;
+  right: 2vw;
+  font-family: "Chivo Mono", monospace;
+  font-size: 1.2vh;
+  color: #FFE75A;
+  z-index: 3;
+  text-decoration: none;
 
+}
+.back:hover{
+  color: #E9742C;
+  cursor: pointer;
+  transform: scale(1.2);
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
 /* img{
     width: 100%;
     height: auto;
@@ -41,6 +61,8 @@ h1 {
   position: absolute;
   right: -50px;
   margin-top: 16vh;
+  font-family: "brea-variable", sans-serif; 
+  font-variation-settings: "wght" 300;
 
 }
 
@@ -180,7 +202,7 @@ h1 {
 }
 
 .ruby-img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -233,7 +255,7 @@ h1 {
 }
 
 .food-img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -297,7 +319,7 @@ h1 {
 }
 
 .drink:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -316,7 +338,7 @@ h1 {
 }
 
 .picnic:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
