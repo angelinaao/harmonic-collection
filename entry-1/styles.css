@@ -21,9 +21,11 @@ h1{
     margin-top: 10.6vh;
     margin-left: -16vw;
    font-family: "brea-variable", sans-serif; 
-   font-variation-settings: "wght" 100; 
+   
    animation-name: pizza;
    animation-duration: 9s; 
+   font-weight: 100;
+   font-variation-settings: "wght" 700;
 }
 .second-date{
     color:#B19F0F;

@@ -26,6 +26,8 @@ h1 {
   z-index: 1;
 
   font-family: "brea-variable", sans-serif; 
+  font-weight: 100;
+   font-variation-settings: "wght" 700;
   
 }
 .back{

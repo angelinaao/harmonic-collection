@@ -182,7 +182,10 @@ h1{
     right: 0px;
     color: #B19F0F;
     font-size: 30vh;
+    font-weight: 100;
    font-family: "brea-variable", sans-serif; 
+   font-variation-settings: "wght" 600;
+ 
   
 }
 .second-september{
@@ -205,6 +208,8 @@ h2{
     left: 0px;
     margin-top: 0.6vh;
     font-family: "brea-variable", sans-serif;
+    font-weight: 100;
+    font-variation-settings: "wght" 600;
 
    
 }
