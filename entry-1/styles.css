@@ -276,6 +276,8 @@ p{
     h1{
         font-size: 7vh;
         margin-top: 34vh;
+        font-weight: 100;
+        font-variation-settings: "wght" 544;
     }
 
     .jazz-block img{
@@ -293,6 +295,7 @@ p{
         font-size:7vh;
         margin-top: -2vh;
         margin-left: -6vw;
+        font-variation-settings: "wght" 300;
     }
 
     .pizza-block img{
